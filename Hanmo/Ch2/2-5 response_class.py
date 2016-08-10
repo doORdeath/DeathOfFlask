@@ -12,7 +12,6 @@ def response_test():
 
     return make_response(custom_response)
 
-
 @app.route("/str")
 def response_test_str():
     return make_response("Custom Response")
